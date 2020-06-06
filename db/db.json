@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": "5ed759bfa9476356c035106b",
+      "isActive": false,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=1",
+      "age": 21,
+      "name": "Romero Kramer",
+      "email": "romerokramer@gronk.com",
+      "password": 12345
+    },
+    {
+      "id": "5ed759bf47be0ae610a65ca0",
+      "isActive": false,
+      "isAdmin": false,
+      "picture": "https://picsum.photos/200/300?random=2",
+      "age": 40,
+      "name": "Marva Wong",
+      "email": "marvawong@gronk.com",
+      "password": 12345
+    },
+    {
+      "id": "5ed759bf7d3bac0e054de999",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=3",
+      "age": 39,
+      "name": "Eve Mcfarland",
+      "email": "evemcfarland@gronk.com",
+      "password": "133456"
+    },
+    {
+      "id": "5ed759bff857414a98b29260",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=4",
+      "age": 37,
+      "name": "Alston Lyons",
+      "email": "alstonlyons@gronk.com",
+      "password": 12345
+    },
+    {
+      "id": "5ed759bf30e8adbd412175ea",
+      "isActive": true,
+      "isAdmin": true,
+      "picture": "https://picsum.photos/200/300?random=5",
+      "age": "334",
+      "name": "Ruthie Rowe",
+      "email": "ruthierowe@gronk.com",
+      "password": 12345
+    },
+    {
+      "name": "test",
+      "are": 0,
+      "password": "dfdf",
+      "isAdmin": false,
+      "isActive": true,
+      "email": "fdfsfd@dsd",
+      "age": "22",
+      "id": "zpquCLT"
+    },
+    {
+      "name": "iznerwqmse1",
+      "are": 0,
+      "password": "123456",
+      "isAdmin": false,
+      "isActive": true,
+      "email": "dfsdf@dsdf",
+      "age": "21",
+      "id": "H_CfEQ_"
+    },
+    {
+      "name": "iznerwqmse2",
+      "are": 0,
+      "password": "125555",
+      "isAdmin": false,
+      "isActive": true,
+      "email": "dsdasd@df",
+      "age": "21",
+      "picture": "https://picsum.photos/200/300?random=1",
+      "id": "IXWBIeY"
+    }
+  ],
+  "notes": [
+    {
+      "title": "uyuyuyuyuuy",
+      "content": "yuyuyuyutyutyutyutyutyutyutyutyutyu",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-05T06:54:05.257Z",
+      "id": "zMkLplE",
+      "status": "Active"
+    },
+    {
+      "title": "fgfgfg",
+      "content": "fgfgfgfgfg",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-05T14:30:50.254Z",
+      "status": "Pending",
+      "id": "Y6XpctG"
+    },
+    {
+      "title": "Kids day",
+      "content": "I love this day!!!1",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-06T08:04:15.166Z",
+      "status": "Active",
+      "id": "WHYWQaO"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.register-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height:100vh;
+
+}
+
+.register-form{
+width: 400px;
+border:1px solid gray;
+border-radius: 10px;
+background-color:rgb(52,58,64);
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.label-style{
+    color: white;
+}
+.btn-style{
+    margin-top: 15px;
+}
+.login-link{
+    margin-top: 10px;
+}
