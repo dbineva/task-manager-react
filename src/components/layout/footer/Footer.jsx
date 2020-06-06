@@ -13,6 +13,7 @@ const styles = {
 export function Footer() {
     return (
     <div className="footer" style={styles}>
+        Sashkata e mnogo gotin
     </div>
 
     );
