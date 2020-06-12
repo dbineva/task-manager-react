@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import Layout from "./components/layout/Layout";
-import { Switch , Route} from "react-router-dom";
+import { Switch } from "react-router-dom";
 import { Login } from "./components/auth/login/Login";
 import { AuthenticatedRoute } from "./core/guards/AuthenticatedRoute";
 import { NonAuthenticatedRoute } from "./core/guards/NonAuthenticatedRoute";
 import { Register } from "./components/auth/registration/Register";
-import { UsersList } from '../../task-manager/src/components/users/users-list/UsersList';
-import { User } from '../../task-manager/src/components/users/user/User';
-import { UserEdit } from '../../task-manager/src/components/users/user-edit/UserEdit';
+import { UsersList } from './components/users/users-list/UsersList';
+import { User } from './components/users/user/User';
+import { UserEdit } from './components/users/user-edit/UserEdit';
 import { NotesList } from "./components/notes/notest-list/NotesList";
 import { NoteEdit } from "./components/notes/edit/NoteEdit";
 import { MyNotes } from "./components/notes/my-notes/MyNotes";

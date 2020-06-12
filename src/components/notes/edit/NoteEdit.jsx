@@ -7,8 +7,9 @@ import { Footer } from '../../layout/footer/Footer';
 
 export function NoteEdit(props){
 
-    const [currentNote, setCurrentNote] = useState({title: '', content: '', authorId: '', authorName: '', date: '' });
+    const [currentNote, setCurrentNote] = useState({title: '', content: '', authorId: '', authorName: '', date: '',vote:'' });
     const [shouldRedirect, setShouldRedirect] = useState(false);
+    
 
     useEffect(() => {
         if (props.computedMatch.params.id) {
@@ -55,9 +56,20 @@ export function NoteEdit(props){
                             <option value="Pending">Pending</option>
                             <option value="Done">Done</option>
                         </select>
+                        </div>
+                     <div className="form-group">
+                        <label htmlFor="vote" className="label-style">Vote: </label>
+                        <select className="form-control" id="vote" name="vote" onChange={onInputChange} value={currentNote.vote}>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                           
+                        </select>
                     </div> 
                 
-                    <button className="btn btn-primary btn-style ">Save note</button>
+                    <button className="btn btn-primary btn-style">Save note</button>
                     
                 
                 </form>

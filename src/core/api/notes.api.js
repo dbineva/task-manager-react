@@ -10,6 +10,16 @@ const apiUrl = 'http://localhost:3005';
     Done: 'Done'
 
 }
+  export const NoteVote = {
+      Two: "2",
+      Three:"3",
+      Four: "4",
+      Five: "5",
+      Six: "6"
+  }
+
+
+  
 
 export async function getAllNotes(searchParam) {
     

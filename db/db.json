@@ -38,7 +38,7 @@
       "age": 37,
       "name": "Alston Lyons",
       "email": "alstonlyons@gronk.com",
-      "password": 12345
+      "password": "12345"
     },
     {
       "id": "5ed759bf30e8adbd412175ea",
@@ -90,7 +90,8 @@
       "authorName": "Eve Mcfarland",
       "date": "2020-06-05T06:54:05.257Z",
       "id": "zMkLplE",
-      "status": "Active"
+      "status": "Active",
+      "vote": "2"
     },
     {
       "title": "fgfgfg",
@@ -99,7 +100,8 @@
       "authorName": "Eve Mcfarland",
       "date": "2020-06-05T14:30:50.254Z",
       "status": "Pending",
-      "id": "Y6XpctG"
+      "id": "Y6XpctG",
+      "vote": "3"
     },
     {
       "title": "Kids day",
@@ -108,7 +110,58 @@
       "authorName": "Eve Mcfarland",
       "date": "2020-06-06T08:04:15.166Z",
       "status": "Active",
-      "id": "WHYWQaO"
+      "id": "WHYWQaO",
+      "vote": "4"
+    },
+    {
+      "title": "3333",
+      "content": "tewst",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-12T07:50:40.447Z",
+      "status": "Active",
+      "id": "UzKBsv3",
+      "vote": "5"
+    },
+    {
+      "title": "front-end template",
+      "content": "333",
+      "authorId": "5ed759bff857414a98b29260",
+      "authorName": "Alston Lyons",
+      "date": "2020-06-12T07:51:58.385Z",
+      "status": "Active",
+      "id": "3n85f4Q",
+      "vote": "6"
+    },
+    {
+      "title": "dsdsdsdsd",
+      "content": "sdsdsdsdf",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-12T14:52:57.855Z",
+      "vote": "4",
+      "status": "Done",
+      "id": "igNhus-"
+    },
+    {
+      "title": "sdsdsd",
+      "content": "sdsdsdsd",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-12T15:23:52.669Z",
+      "vote": "4",
+      "status": "Active",
+      "id": "SPh6Op_"
+    },
+    {
+      "title": "sdsds",
+      "content": "sdsdsd",
+      "authorId": "5ed759bf7d3bac0e054de999",
+      "authorName": "Eve Mcfarland",
+      "date": "2020-06-12T15:24:14.165Z",
+      "vote": "5",
+      "status": "Pending",
+      "id": "ZzJ2XEe"
     }
   ]
 }
