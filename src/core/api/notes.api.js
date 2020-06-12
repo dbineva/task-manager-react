@@ -18,7 +18,6 @@ const apiUrl = 'http://localhost:3005';
       Six: "6"
   }
 
-
   
 
 export async function getAllNotes(searchParam) {

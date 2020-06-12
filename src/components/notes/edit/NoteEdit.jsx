@@ -7,7 +7,7 @@ import { Footer } from '../../layout/footer/Footer';
 
 export function NoteEdit(props){
 
-    const [currentNote, setCurrentNote] = useState({title: '', content: '', authorId: '', authorName: '', date: '',vote:'' });
+    const [currentNote, setCurrentNote] = useState({title: '', content: '', authorId: '', authorName: '', date: '',vote:'',image:'' });
     const [shouldRedirect, setShouldRedirect] = useState(false);
     
 
@@ -67,7 +67,12 @@ export function NoteEdit(props){
                             <option value="6">6</option>
                            
                         </select>
+
                     </div> 
+                    <div className="form-group">
+                        <input type="file" id="image" name="image" onChange={onInputChange} value={currentNote.image}/>
+                    </div> 
+                    
                 
                     <button className="btn btn-primary btn-style">Save note</button>
                     

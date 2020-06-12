@@ -16,9 +16,16 @@ const voteStyle = {
 
 };
 
+const image = {
+    height: '100px',
+    width: '100px',
+    border: '1px solid black',}
+
 const deleteBtn = {
     cursor: 'pointer'
 };
+
+
 
 export function NoteCard({ note, onDeleteClick }) {
 
@@ -43,7 +50,7 @@ export function NoteCard({ note, onDeleteClick }) {
     let noteVoteByType = "";
     switch (note.vote) {
         case NoteVote.Two:
-            console.log("i am here")
+            console.log(note.image.split('\\').pop().split('/').pop())
             noteVoteByType += "";
             break;
         case NoteVote.Three:
@@ -62,15 +69,18 @@ export function NoteCard({ note, onDeleteClick }) {
             noteVoteByType += "bg-danger";
             break;
     }
-
-
-
-
+    
+    if(note.image){
+        
+const test = note.image.split('\\').pop().split('/').pop();;
+console.log(test);  
+    }
 
     return (
         <div className={noteClassByType} style={noteStyle}>
             <div className="card-header">
                 <p> {note.title} </p>
+                
             </div>
             <div className="card-body">
                 <p className="card-text">{note.content}</p>
@@ -78,6 +88,9 @@ export function NoteCard({ note, onDeleteClick }) {
             <div className="card-footer bg-transparent ">
                 <div>Author: {note.authorName}</div>
                 <div>Created on: {note.date}</div>
+            </div>
+            <div className="card-footer bg-transparent ">
+                {note.image && <img style={image} src = {"../images/"+ (note.image = note.image.split('\\').pop().split('/').pop())}></img>}
             </div>
             <div >
                 <div >
